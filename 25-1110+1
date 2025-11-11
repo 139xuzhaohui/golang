@@ -1,0 +1,70 @@
+a new week ， need more push more initiative
+
+核心论文:
+- MapReduce/Spark/Flink
+- GFS/BigTable/Spanner
+- Raft/Chubby/etcd/LSM Tree
+- paxos/mutilPaxos/ZK
+- Brog / doucker/ 微服务/服务网格/fass
+
+- book
+数据密集型应用系统设计 - https://vonng.gitbooks.io/ddia-cn/content/ 【Designing  data-intense appliaction】 DDIA
+深入理解分布式系统
+领域驱动设计
+
+- middle ware
+redis/mysql/tidb/mongedb/graphDB
+levelDB / rocksDB
+kafka/ rocketMq / 
+hadoop/Hive/ Spark/Flink
+K8s/doucker/serverless
+LVS/ nginx / Evovy / API gateway
+zk/etcd/consul
+tensorflow
+
+
+----- redis的锁？？？ --- 嗯... 好的吧！ 
+
+----- kafka 和 rocketMq
+----- dubbo 主要是看看 他的整体生态
+----- 限流算法啥的
+----- 分布式
+----- jvm??? 线程池 ???  threadlocal, hashmap,juc,lock
+----- jvm --调优.gc.引用  --- 我觉得 跟多的是 要有一种feeling， 比如一个机器基本的负载，cpu的利用率，io 可承载的数量， 嗯... 比如qps rt这种， 
+对于mysql的链接 redis 的访问，mq 的处理，  【一台机器 比如就4c8g是否是健康的】？？ 那大概可承载的qps 嗯.... 不是很知道
+ - 一条sql的大概耗时  
+ - 一条redis
+ - 一条mq的业务处理
+ - 一次读/写啥的 rt呢？
+---- 如此等等， 
+---- 我还想拉平看看 python 和 go 的区别 or 相似，
+---- IO密集型，计算密集型，---业务更多处理的是IO密集型
+
+
+本地内存操作 --- 1Us -- 1微秒吗？
+Redis 读（同机房）  -- 0.5 ~ 2 ms  网络+序列化开销， 一般说请求的话 一次 小于16kb，响应请求大约48kb左右吧 【官方建议：单个 key ≤ 100 KB，理想 ≤ 10 KB】
+ -- Redis 单次操作建议控制在 10~50KB 以内，避免阻塞主线程和内存碎片；
+Redis 写（同机房） --- 1-3ms 理想化， 
+mysql 写 --- 2-10ms 简单SQL，
+mysql 读走索引 -- 1-5ms 左右，全表的话大于100ms maybe
+mq 发送的rt大概 1-5ms;
+mq 的消费处理 5-20ms差不多， 
+
+
+
+负载？？？ 可以思考一下
+
+
+
+
+--- 可以看下gc的日志， 学习一下！
+--- iostat io top --gg 这两个命令都是不对的！ 
+-- 如果公司的网 可以登陆yuque就好了， ...
+
+
+
+
+
+
+
+
