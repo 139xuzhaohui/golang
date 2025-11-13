@@ -1,4 +1,58 @@
 a new week ， need more push more initiative
+https://teachyourselfcs.com/ 【自学网】 --很多书籍推荐
+
+
+OS
+https://www.icourse163.org/course/HIT-1002531008 【操作系统】
+https://www.bilibili.com/video/av31289365/?from=search&seid=16298868573410423104 【操作系统】
+
+
+算法:
+算法设计手册 pdf 电子书
+视频的话，推荐北京大学的国家精品课程—程序设计与算法（二）算法基础，讲的非常好！
+https://www.icourse163.org/course/PKU-1001894005
+
+
+🤔️ ： 快速置换？ 读取文件快一些 && 交换文件
+
+
+网络：
+- 7层模型： 
+
+物链网输会使用
+物理层
+链路层
+网络层
+数据传输层
+会话
+表示
+用户
+
+DB
+
+《高性能 MySQL》：MySQL 领域的经典之作！学习 MySQL 必看！属于进阶内容，主要教你如何更好地使用 MySQL 。既有有理论，又有实践！如果你没时间都看一遍的话，我建议第 5 章（创建高性能的索引）、第 6 章（查询性能优化） 你一定要认真看一下。《MySQL 技术内幕》：你想深入了解 MySQL 存储引擎的话，看这本书准没错！
+------
+著作权归JavaGuide(javaguide.cn)所有
+基于MIT协议
+原文链接：https://javaguide.cn/books/database.html
+
+
+PostgreSQL
+和 MySQL 一样，PostgreSQL 也是开源免费且功能强大的关系型数据库。PostgreSQL 的 Slogan 是“世界上最先进的开源关系型数据库” 。
+
+PostgreSQL 指南：内幕探索》
+《PostgreSQL 指南：内幕探索》这本书主要介绍了 PostgreSQL 内部的工作原理，包括数据库对象的逻辑组织与物理实现，进程与内存的架构。
+
+Search
+
+LuceneElasticsearch 在 Apache Lucene 的基础上开发而成，学习 ES 之前，建议简单了解一下 Lucene 的相关概念。《Lucene 实战》 是国内为数不多的中文版本讲 Lucene 的书籍，适合用来学习和了解 Lucene 相关的概念和常见操作。
+------
+著作权归JavaGuide(javaguide.cn)所有
+基于MIT协议
+原文链接：https://javaguide.cn/books/search-engine.html
+
+
+
 
 核心论文:
 - MapReduce/Spark/Flink
