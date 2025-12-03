@@ -1,3 +1,5 @@
+分布式
+
 - 数据库的连接
 - spring里面的 transactionTemplate 和 transactional的注解的区分
 - spring 如何与 mybstis 或者 jdbc 使得事务生效的呢？
@@ -7,7 +9,6 @@
 - 限流方式！！！负载均衡算法， 这些也还要了解哇！ RateLimiter ？ 
 - mapreduce 的思想，多机器下任务控制 并发 并行 如何保证
 - 弹幕、点赞、这种高并发场景！
-
 
 
 【分布式CAP理论--及目前协调组件的常用的协议】
